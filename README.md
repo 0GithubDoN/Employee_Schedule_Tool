@@ -28,6 +28,8 @@ Detailed Guide
 Importing Data from XLSX Files
 Follow the detailed steps to ensure data from XLSX files is correctly imported and mapped to your schedule. Double-check all entries post-import to guarantee accuracy.
 
+![How To GIF](https://royalchat.net/gif/howto.gif)
+
 Click the “Import XLSX” button on the main interface. A file dialog will appear. Select the Excel file you wish to use and confirm the selection to upload the file.
 Once the file is uploaded, a 'Mapping Interface' will appear. This interface allows you to assign data from your Excel file to the correct fields in the schedule. For each column in your Excel file, there will be a dropdown menu. Select the appropriate schedule field for each column (e.g., Employee Name, Monday, Tuesday, etc.). Use the "Ignore" option for any column that doesn’t correspond to a field in your schedule.
 After setting the mappings, click a button often labeled “Apply Mappings” or “Confirm” to populate the schedule with your Excel data. The tool will process your Excel file according to the mappings and display the schedule on the screen.
