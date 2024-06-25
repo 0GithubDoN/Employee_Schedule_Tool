@@ -1,0 +1,300 @@
+/* Elegant Theme */
+table.elegant {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: "Playfair Display", serif;
+    color: #333;
+    background-color: #f7f7f7;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+table.elegant th, table.elegant td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table.elegant th {
+    background-color: #4b4b4b;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+table.elegant tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+table.elegant tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+table.elegant tr:hover {
+    background-color: #cccccc;
+    transition: background-color 0.3s ease;
+}
+
+/* Elegant Theme Effects */
+table.elegant th, table.elegant td {
+    transition: transform 0.2s ease;
+}
+
+table.elegant th:hover, table.elegant td:hover {
+    transform: scale(1.02);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Rainbow Theme */
+table.rainbow {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #ffffff;
+    color: #333;
+    border: 1px solid #ccc;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+table.rainbow th, table.rainbow td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+table.rainbow th {
+    background-color: #ff6f61;
+    color: white;
+    font-weight: bold;
+    animation: rainbowGlow 2s infinite alternate;
+}
+
+@keyframes rainbowGlow {
+    0% { box-shadow: 0 0 10px #ff6f61; }
+    50% { box-shadow: 0 0 20px #ff6f61; }
+    100% { box-shadow: 0 0 10px #ff6f61; }
+}
+
+table.rainbow tr:nth-child(1) td {
+    background-color: #ff6f61;
+    color: white;
+}
+
+table.rainbow tr:nth-child(2) td {
+    background-color: #ffb86c;
+    color: white;
+}
+
+table.rainbow tr:nth-child(3) td {
+    background-color: #ffd700;
+    color: white;
+}
+
+table.rainbow tr:nth-child(4) td {
+    background-color: #9acd32;
+    color: white;
+}
+
+table.rainbow tr:nth-child(5) td {
+    background-color: #32cd32;
+    color: white;
+}
+
+table.rainbow tr:nth-child(6) td {
+    background-color: #1e90ff;
+    color: white;
+}
+
+table.rainbow tr:nth-child(7) td {
+    background-color: #9370db;
+    color: white;
+}
+
+table.rainbow tr:hover {
+    background-color: #ddd;
+    transition: background-color 0.3s ease;
+}
+
+/* Colorful Theme */
+table.colorful {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+table.colorful th, table.colorful td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+table.colorful th {
+    background-color: rgba(255, 87, 51, 0.7);
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+table.colorful tr:nth-child(odd) {
+    background-color: rgba(51, 255, 189, 0.5);
+    color: #333;
+}
+
+table.colorful tr:nth-child(even) {
+    background-color: rgba(255, 51, 166, 0.5);
+    color: #333;
+}
+
+table.colorful tr:hover {
+    background-color: rgba(240, 230, 140, 0.5);
+    transition: background-color 0.3s ease;
+}
+
+
+/* Futuristic Theme */
+table.futuristic {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #e0f7fa;
+    color: #000000;
+    border: 2px solid #00acc1;
+    font-family: "Orbitron", sans-serif;
+}
+
+table.futuristic th, table.futuristic td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #00acc1;
+}
+
+table.futuristic th {
+    background-color: #00acc1;
+    color: #000000;
+    font-weight: bold;
+}
+
+table.futuristic tr:nth-child(even) {
+    background-color: #b2ebf2;
+}
+
+table.futuristic tr:nth-child(odd) {
+    background-color: #e0f7fa;
+}
+
+table.futuristic tr:hover {
+    background-color: #00acc1;
+    color: #000000;
+    transition: background-color 0.3s ease;
+}
+
+/* AI Theme */
+table.ai {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #f0f0f0;
+    border: 2px solid #3498db;
+    font-family: "Roboto Mono", monospace;
+}
+
+table.ai th, table.ai td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #3498db;
+}
+
+table.ai th {
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+table.ai tr:nth-child(even) {
+    background-color: #d0e1f9;
+}
+
+table.ai tr:hover {
+    background-color: #a9cce3;
+    transition: background-color 0.3s ease;
+}
+
+/* Google Calendar Theme */
+table.google-calendar {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #ffffff;
+    border: 2px solid #e0e0e0;
+    font-family: "Roboto", sans-serif;
+}
+
+table.google-calendar th, table.google-calendar td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #dee2e6;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+table.google-calendar th {
+    background-color: #34a853;
+    color: white;
+    font-weight: bold;
+}
+
+table.google-calendar tr:nth-child(even) {
+    background-color: #f1f3f4;
+}
+
+table.google-calendar tr:hover {
+    background-color: #e8eaed;
+    transition: background-color 0.3s ease;
+}
+
+/* Modern Theme */
+table.modern {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #fafafa;
+    border: 2px solid #333333;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+table.modern th, table.modern td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #dee2e6;
+}
+
+table.modern th {
+    background-color: #333333;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+table.modern tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+table.modern tr:hover {
+    background-color: #e0e0e0;
+    transition: background-color 0.3s ease;
+}

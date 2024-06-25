@@ -1,0 +1,141 @@
+/* Header animation */
+.header {
+    animation: fadeInDown 1s ease forwards;
+    perspective: 1000px; /* Add perspective for 3D effect */
+}
+
+/* Navigation animation */
+.navigation {
+    animation: slideInLeft 1s ease forwards;
+    perspective: 1000px; /* Add perspective for 3D effect */
+}
+
+/* Menu items animation */
+.menu-item {
+    animation: slideInRight 1s ease forwards;
+    perspective: 1000px; /* Add perspective for 3D effect */
+}
+
+/* Section animation */
+.section {
+    animation: slideInUp 1s ease forwards;
+    perspective: 1000px; /* Add perspective for 3D effect */
+}
+
+/* Title animation */
+.section-title {
+    animation: fadeInLeft 1s ease forwards;
+    perspective: 1000px; /* Add perspective for 3D effect */
+}
+
+/* Text animation */
+.section-text {
+    animation: fadeInRight 1s ease forwards;
+    perspective: 1000px; /* Add perspective for 3D effect */
+}
+
+/* Link animation */
+.section-link {
+    animation: fadeInUp 1s ease forwards;
+    perspective: 1000px; /* Add perspective for 3D effect */
+}
+
+/* Parallax scroll effect for background image */
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    perspective: 1000px; /* Add perspective for 3D effect */
+    overflow: hidden;
+    position: relative;
+    transform-style: preserve-3d; /* Preserve 3D transformations */
+}
+
+/* Parallax scroll effect keyframes */
+@keyframes parallaxScroll {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-50%);
+    }
+}
+
+/* Keyframes for animations */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px) rotateX(-90deg); /* Add rotation for 3D effect */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) rotateX(0); /* Add rotation for 3D effect */
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px) rotateY(-90deg); /* Add rotation for 3D effect */
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0) rotateY(0); /* Add rotation for 3D effect */
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px) rotateY(90deg); /* Add rotation for 3D effect */
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0) rotateY(0); /* Add rotation for 3D effect */
+    }
+}
+
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px) rotateX(90deg); /* Add rotation for 3D effect */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) rotateX(0); /* Add rotation for 3D effect */
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px) rotateY(-90deg); /* Add rotation for 3D effect */
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0) rotateY(0); /* Add rotation for 3D effect */
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px) rotateY(90deg); /* Add rotation for 3D effect */
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0) rotateY(0); /* Add rotation for 3D effect */
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px) rotateX(90deg); /* Add rotation for 3D effect */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) rotateX(0); /* Add rotation for 3D effect */
+    }
+}
