@@ -133,4 +133,5 @@ Copyright © George Lucian. All rights reserved.
 ## 🤝 Support
 
 For support or bug reports, please refer to the documentation or contact the system administrator. 
-![How To GIF](https://royalchat.net/gif/howto.gif)
+<img src="https://i.ibb.co/0jvwX833/howto.gif" alt="howto" border="0">
+
