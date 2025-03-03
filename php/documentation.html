@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Schedule Tool Documentation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/default.min.css">
+    <link rel="stylesheet" href="../css/doc.css">
+    <link rel="stylesheet" href="../css/animations.css">
+</head>
+<body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress"></div>
+
+    <!-- Matrix Background Effect -->
+    <div class="matrix-bg"></div>
+
+    <header class="header">
+        <h1 class="title">Employee Schedule Tool Documentation</h1>
+        <a href="../index.php" class="home-button"><i class="fas fa-home"></i> Back to Schedule</a>
+    </header>
+    
+    <nav class="navigation">
+        <ul class="menu">
+            <li class="menu-item"><a class="menu-link" href="#introduction">Introduction</a></li>
+            <li class="menu-item"><a class="menu-link" href="#key-features">Key Features</a></li>
+            <li class="menu-item"><a class="menu-link" href="#getting-started">Getting Started</a></li>
+            <li class="menu-item"><a class="menu-link" href="#detailed-guide">Detailed Guide</a></li>
+            <li class="menu-item"><a class="menu-link" href="#faq">FAQ</a></li>
+            <li class="menu-item"><a class="menu-link" href="#privacy">Privacy</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="introduction" class="section reveal">
+            <h2 class="section-title">Introduction</h2>
+            <p class="section-text">
+                Welcome to the Employee Schedule Tool Documentation. This comprehensive guide will help you understand and utilize all features of our scheduling system effectively. Our tool is designed with simplicity and privacy in mind, requiring no registration while providing powerful scheduling capabilities.
+            </p>
+        </section>
+
+        <section id="key-features" class="section reveal">
+            <h2 class="section-title">Key Features</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Privacy First</h3>
+                    <p>No registration or personal data collection required. All data stays in your browser.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-calculator"></i>
+                    <h3>Automatic Hour Calculation</h3>
+                    <p>Automatically calculates working hours, including split shifts (e.g., 12:00-16:30/17:00-20:00).</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-file-import"></i>
+                    <h3>Import/Export</h3>
+                    <p>Support for XLSX imports and exports to PDF, PNG, and XLSX formats.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Customization</h3>
+                    <p>Multiple themes and customizable fonts to match your preferences.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="getting-started" class="section reveal">
+            <h2 class="section-title">Getting Started</h2>
+            <div class="quick-start">
+                <h3>Quick Start Guide</h3>
+                <ol>
+                    <li>Open the schedule tool in your web browser</li>
+                    <li>Click "Add Employee" to start creating your schedule</li>
+                    <li>Enter shift times in format: 09:00-17:00 or 09:00-13:00/14:00-18:00 for split shifts</li>
+                    <li>Use the save button regularly to preserve your changes</li>
+                </ol>
+            </div>
+        </section>
+
+        <section id="detailed-guide" class="section reveal">
+            <h2 class="section-title">Detailed Guide</h2>
+
+            <article id="hour-calculation">
+                <h3>Working Hours Calculation</h3>
+                <p>The system automatically calculates working hours in various formats:</p>
+                <ul>
+                    <li><strong>Regular Shifts:</strong> Enter times like "09:00-17:00"</li>
+                    <li><strong>Split Shifts:</strong> Enter times like "09:00-13:00/14:00-18:00"</li>
+                    <li><strong>Multiple Splits:</strong> Use forward slash (/) between shifts</li>
+                    <li><strong>Break Handling:</strong> Breaks between split shifts are automatically excluded</li>
+                </ul>
+            </article>
+
+            <article id="importing-data">
+                <h3>Importing Data from Excel</h3>
+                <p>Follow these steps to import your Excel schedule:</p>
+                <ol>
+                    <li>Click "Import Data from Excel"</li>
+                    <li>Select your XLSX file</li>
+                    <li>Use the mapping interface to match columns</li>
+                    <li>Verify the imported data</li>
+                </ol>
+                <div class="image-container">
+                    <img src="https://royalchat.net/gif/howto.gif" alt="Import Data Tutorial">
+                </div>
+            </article>
+
+            <article id="managing-schedules">
+                <h3>Managing Schedules</h3>
+                <ul>
+                    <li><strong>Adding Employees:</strong> Click "Add Employee" and enter details</li>
+                    <li><strong>Split Shifts:</strong> Use the format "09:00-13:00/14:00-18:00"</li>
+                    <li><strong>Combining Rows:</strong> Use the combine icon for employees with multiple shifts</li>
+                    <li><strong>Drag and Drop:</strong> Rearrange employees by dragging rows</li>
+                    <li><strong>Quick Search:</strong> Use the search box to filter employees</li>
+                </ul>
+            </article>
+
+            <article id="customization">
+                <h3>Customization Options</h3>
+                <ul>
+                    <li><strong>Themes:</strong> Choose from multiple pre-designed themes</li>
+                    <li><strong>Fonts:</strong> Select different fonts for better readability</li>
+                    <li><strong>Layout:</strong> Resize columns and rows as needed</li>
+                    <li><strong>Print Layout:</strong> Optimized format for printing</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="faq" class="section reveal">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <dl class="faq-list">
+                <dt><i class="fas fa-question-circle"></i> How are split shifts calculated?</dt>
+                <dd>Split shifts are calculated automatically when you use the format "09:00-13:00/14:00-18:00". The system adds up all working periods and excludes breaks.</dd>
+                
+                <dt><i class="fas fa-question-circle"></i> Can I import my existing schedule?</dt>
+                <dd>Yes, you can import schedules from XLSX files. The system includes a mapping tool to match your columns correctly.</dd>
+                
+                <dt><i class="fas fa-question-circle"></i> How do I save my changes?</dt>
+                <dd>Changes are saved automatically to your browser's local storage. You can also click the "Save Changes" button for manual saves.</dd>
+                
+                <dt><i class="fas fa-question-circle"></i> What happens if I clear my browser data?</dt>
+                <dd>Clearing browser data will remove your saved schedule. Export your schedule to XLSX before clearing browser data.</dd>
+            </dl>
+        </section>
+
+        <section id="privacy" class="section reveal">
+            <h2 class="section-title">Privacy & Security</h2>
+            <div class="privacy-info">
+                <p><i class="fas fa-lock"></i> <strong>Local Storage Only:</strong> All data is stored in your browser only.</p>
+                <p><i class="fas fa-user-shield"></i> <strong>No Data Collection:</strong> We don't collect or track any personal information.</p>
+                <p><i class="fas fa-cloud-slash"></i> <strong>No Server Storage:</strong> No data is sent to external servers.</p>
+                <p><i class="fas fa-download"></i> <strong>Data Backup:</strong> Regular exports are recommended for data backup.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <p>Crafted with <i class="fas fa-heart"></i> by George Lucian</p>
+                <p>Version: BETA - Please verify all data before exporting</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+
+        // Scroll reveal
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal");
+            reveals.forEach(element => {
+                var windowHeight = window.innerHeight;
+                var elementTop = element.getBoundingClientRect().top;
+                var elementVisible = 150;
+                
+                if (elementTop < windowHeight - elementVisible) {
+                    element.classList.add("active");
+                }
+            });
+        }
+
+        // Scroll progress
+        function updateScrollProgress() {
+            const scrollProgress = document.querySelector('.scroll-progress');
+            const scrolled = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
+            scrollProgress.style.width = scrolled + '%';
+        }
+
+        // Scroll to top button
+        function toggleScrollTopButton() {
+            const scrollTop = document.querySelector('.scroll-top');
+            if (window.scrollY > 500) {
+                scrollTop.classList.add('visible');
+            } else {
+                scrollTop.classList.remove('visible');
+            }
+        }
+
+        // Event listeners
+        window.addEventListener('scroll', reveal);
+        window.addEventListener('scroll', updateScrollProgress);
+        window.addEventListener('scroll', toggleScrollTopButton);
+
+        // Initial call
+        reveal();
+    </script>
+</body>
+</html>
